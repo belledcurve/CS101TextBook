@@ -1,3 +1,10 @@
+/*
+filename: CH1.java
+workingdirectory: /User/user/IdeaProjects/CS101TextBook/src/
+coder: Samuel Lee
+date: 9/5/2022
+**/
+
 public class CH1 {
     
     public static void main(String[] args) {
@@ -37,7 +44,7 @@ class Q1_3 {
         for(x=1; x<5; x++) {
             for(y=1; y<5; y++) {
                 if(x==1 && y==4 || x==2 && y==4 || x==3 && y==1 | y==4 || x==4 && y==2 | y==3) {
-                System.out.print("*");
+                System.out.print("J");
                 }
                 else {
                 System.out.print(" ");
@@ -50,7 +57,7 @@ System.out.println();
         for(y=1; y<5; y++) {
             for(x=1; x<8; x++) {
                 if(y==1 && x==4 || y==2 && x==3 | x==5 || y==3 && x==2 | x==3 | x==4 | x==5 | x==6 || y==4 && x==1 | x==7) {
-                    System.out.print("*");
+                    System.out.print("A");
                 }
                 else {
                     System.out.print(" ");
@@ -63,7 +70,7 @@ System.out.println();
         for(y=1; y<5; y++) {
             for(x=1; x<8; x++) {
                 if(x + y == 8 || x == y) {
-                    System.out.print("*");
+                    System.out.print("V");
                 }
                 else {
                     System.out.print(" ");
@@ -76,7 +83,7 @@ System.out.println();
         for(y=1; y<5; y++) {
             for(x=1; x<8; x++) {
                 if(y==1 && x==4 || y==2 && x==3 | x==5 || y==3 && x==2 | x==3 | x==4 | x==5 | x==6 || y==4 && x==1 | x==7) {
-                    System.out.print("*");
+                    System.out.print("A");
                 }
                 else {
                     System.out.print(" ");
@@ -278,3 +285,5 @@ class Q1_13 {
         System.out.println(answer);
     }
 }
+
+
